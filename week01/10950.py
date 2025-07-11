@@ -6,11 +6,9 @@
 
 t = int(input())
 
-for i in range(1,t+1):
+for _ in range(t):
     a,b = map(int,input().split())
-    for t in range(1, t+1):
-        print(a+b)
-
+    print(a+b)
 
 
 
